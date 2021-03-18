@@ -1,0 +1,56 @@
+:root {
+    --mdc-theme-primary: #8afcc8;
+    --mdc-theme-on-primary: #000000;
+    --mdc-theme-secondary: #e9d670;
+    --mdc-theme-on-secondary: #000000;
+    --mdc-typography-font-family: 'Manrope', sans-serif;
+    font-family: 'Manrope', sans-serif;
+}
+#left {
+    float: right;
+}
+html, body {
+    margin: 0;
+    padding:0;
+    background: #202020;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+#menu {
+    text-align: center;
+    height: 100vh;
+}
+#menu > button {
+    width: calc(70% - 50px);
+    margin: 0 0 25px 0;
+    padding: 100px 0 100px 0;
+    font-size: xxx-large;
+}
+#images {
+    text-align: center;
+}
+#images > div > img {
+    min-height: 75vh;
+    max-height: 90vh;
+    max-width: 100%;
+    display: block;
+    margin: 5px auto 5px auto;
+    border-radius: 20px;
+}
+#images > div > button {
+    margin: 5px auto 5px auto;
+}
+.img-container {
+    height: 100vh;
+    max-width: 100%;
+    padding: 30px;
+}
+.title {
+    color: #ffffff;
+    font-size: xxx-large;
+}
+.text {
+    color: #ffffff;
+    font-size: x-large;
+}
