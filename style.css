@@ -1,8 +1,6 @@
 :root {
     --mdc-theme-primary: #8afcc8;
     --mdc-theme-on-primary: #000000;
-    --mdc-theme-secondary: #e9d670;
-    --mdc-theme-on-secondary: #000000;
     --mdc-typography-font-family: 'Manrope', sans-serif;
     font-family: 'Manrope', sans-serif;
 }
@@ -30,10 +28,8 @@ body::-webkit-scrollbar {
 #images {
     text-align: center;
 }
-#images > div > img {
-    min-height: 75vh;
-    max-height: 90vh;
-    max-width: 100%;
+img {
+    background-size: cover;
     display: block;
     margin: 5px auto 5px auto;
     border-radius: 20px;
